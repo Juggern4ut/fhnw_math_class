@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625120629296" clover="3.2.0">
-  <project timestamp="1625120629296" name="All files">
+<coverage generated="1625121095877" clover="3.2.0">
+  <project timestamp="1625121095877" name="All files">
     <metrics statements="71" coveredstatements="71" conditionals="12" coveredconditionals="12" methods="26" coveredmethods="26" elements="109" coveredelements="109" complexity="0" loc="71" ncloc="71" packages="1" files="4" classes="4"/>
     <file name="line.ts" path="C:\Users\LukasMeier\Projects\TypeScript\fhnw_math_class\src\Math\line.ts">
       <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
