@@ -1,3 +1,4 @@
+import Line from "../src/Math/line";
 import Point from "../src/Math/point";
 import Vector3 from "../src/Math/vector3";
 
@@ -14,5 +15,11 @@ describe("math tests combining several functions", () => {
     const area: number = cross.getMagnitude() * 0.5;
 
     expect(area).toBe(5);
+  });
+
+  it("should calculate the distance of a point to a line", () => {
+    const g: Line = new Line(new Vector3(2, 3, 4), new Vector3(-1, -1, 1));
+    const A: Point = new Point(1, 1, 1);
+    expect(g.getDistanceToPoint(A)).toBeCloseTo(3.741657);
   });
 });

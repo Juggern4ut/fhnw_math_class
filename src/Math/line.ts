@@ -39,6 +39,19 @@ class Line {
   }
 
   /**
+   * Will calculate the shortest distance of the line to a given point
+   * @param point The point to get the distance to
+   * @returns The shortest distance from the line to the point
+   */
+  getDistanceToPoint(point: Point): number {
+    const AP: Vector3 = Point.getVector(this.location.toPoint(), point);
+    const distance =
+      Vector3.cross(this.direction, AP).getMagnitude() /
+      this.direction.getMagnitude();
+    return distance;
+  }
+
+  /**
    * Will verify if two lines are equal
    * @param other The other line to compare to
    * @returns true if the lines are equals, false otherwise
