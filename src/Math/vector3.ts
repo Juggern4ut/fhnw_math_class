@@ -141,6 +141,14 @@ class Vector3 {
   toPoint(): Point {
     return new Point(this.x, this.y, this.z);
   }
+
+  /**
+   * Will convert the vector to a better readable string
+   * @returns A String representing the vector
+   */
+  toString(): String {
+    return `(${this.x}|${this.y}|${this.z})`;
+  }
 }
 
 export default Vector3;

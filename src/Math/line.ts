@@ -52,6 +52,14 @@ class Line {
     const crosses = this.crossesPoints([p])[0];
     return parallel && crosses;
   }
+
+  /**
+   * Will convert the line into a human readable form
+   * @returns The string to represent the line
+   */
+  toString(): String {
+    return `${this.location.toString()} + t${this.direction.toString()}`;
+  }
 }
 
 export default Line;

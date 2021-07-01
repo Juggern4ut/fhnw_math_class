@@ -3,6 +3,11 @@ import Point from "../src/Math/point";
 import Vector3 from "../src/Math/vector3";
 
 describe("line tests", () => {
+  it("should convert a line to a string", () => {
+    const g: Line = new Line(new Vector3(4, 1, -3), new Vector3(3, 1, 4.2));
+    expect(g.toString()).toEqual("(4|1|-3) + t(3|1|4.2)");
+  });
+
   it("should calculate if a point is located on a Line", () => {
     const A0: Vector3 = new Vector3(4, -2, 0);
     const a: Vector3 = new Vector3(3, -3, -2);

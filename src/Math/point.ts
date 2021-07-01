@@ -47,6 +47,14 @@ class Point {
   getValues(): number[] {
     return [this.x, this.y, this.z];
   }
+
+  /**
+   * Will convert the point to a better readable string
+   * @returns A String representing the point
+   */
+  toString(): String {
+    return `(${this.x}|${this.y}|${this.z})`;
+  }
 }
 
 export default Point;

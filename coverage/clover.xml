@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625043477194" clover="3.2.0">
-  <project timestamp="1625043477194" name="All files">
-    <metrics statements="68" coveredstatements="68" conditionals="12" coveredconditionals="12" methods="23" coveredmethods="23" elements="103" coveredelements="103" complexity="0" loc="68" ncloc="68" packages="1" files="4" classes="4"/>
+<coverage generated="1625120629296" clover="3.2.0">
+  <project timestamp="1625120629296" name="All files">
+    <metrics statements="71" coveredstatements="71" conditionals="12" coveredconditionals="12" methods="26" coveredmethods="26" elements="109" coveredelements="109" complexity="0" loc="71" ncloc="71" packages="1" files="4" classes="4"/>
     <file name="line.ts" path="C:\Users\LukasMeier\Projects\TypeScript\fhnw_math_class\src\Math\line.ts">
-      <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+      <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="9" count="3" type="stmt"/>
-      <line num="10" count="3" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="10" count="4" type="stmt"/>
       <line num="20" count="2" type="stmt"/>
       <line num="21" count="2" type="stmt"/>
       <line num="22" count="3" type="stmt"/>
@@ -20,7 +20,8 @@
       <line num="51" count="1" type="stmt"/>
       <line num="52" count="1" type="stmt"/>
       <line num="53" count="1" type="cond" truecount="2" falsecount="0"/>
-      <line num="57" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
     </file>
     <file name="plane.ts" path="C:\Users\LukasMeier\Projects\TypeScript\fhnw_math_class\src\Math\plane.ts">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
@@ -35,25 +36,26 @@
       <line num="29" count="1" type="stmt"/>
     </file>
     <file name="point.ts" path="C:\Users\LukasMeier\Projects\TypeScript\fhnw_math_class\src\Math\point.ts">
-      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
       <line num="1" count="5" type="stmt"/>
-      <line num="16" count="13" type="cond" truecount="2" falsecount="0"/>
-      <line num="17" count="13" type="cond" truecount="2" falsecount="0"/>
-      <line num="18" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="14" type="cond" truecount="2" falsecount="0"/>
       <line num="28" count="3" type="stmt"/>
       <line num="29" count="3" type="stmt"/>
       <line num="30" count="3" type="stmt"/>
       <line num="31" count="3" type="stmt"/>
       <line num="40" count="1" type="stmt"/>
       <line num="48" count="3" type="stmt"/>
-      <line num="52" count="5" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="60" count="5" type="stmt"/>
     </file>
     <file name="vector3.ts" path="C:\Users\LukasMeier\Projects\TypeScript\fhnw_math_class\src\Math\vector3.ts">
-      <metrics statements="31" coveredstatements="31" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
+      <metrics statements="32" coveredstatements="32" conditionals="2" coveredconditionals="2" methods="13" coveredmethods="13"/>
       <line num="1" count="5" type="stmt"/>
-      <line num="15" count="34" type="stmt"/>
-      <line num="16" count="34" type="stmt"/>
-      <line num="17" count="34" type="stmt"/>
+      <line num="15" count="37" type="stmt"/>
+      <line num="16" count="37" type="stmt"/>
+      <line num="17" count="37" type="stmt"/>
       <line num="26" count="1" type="stmt"/>
       <line num="37" count="3" type="stmt"/>
       <line num="38" count="3" type="stmt"/>
@@ -80,7 +82,8 @@
       <line num="124" count="4" type="stmt"/>
       <line num="134" count="6" type="stmt"/>
       <line num="142" count="2" type="stmt"/>
-      <line num="146" count="5" type="stmt"/>
+      <line num="150" count="3" type="stmt"/>
+      <line num="154" count="5" type="stmt"/>
     </file>
   </project>
 </coverage>

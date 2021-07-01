@@ -6,6 +6,11 @@ describe("Vector3 Tests", () => {
     expect(v.getValues()).toEqual([10, 2, 5.5]);
   });
 
+  it("should convert a vector to a string", () => {
+    const v: Vector3 = new Vector3(10, 2, 5.5);
+    expect(v.toString()).toEqual("(10|2|5.5)");
+  });
+
   it("should create the cross product of two vectors", () => {
     const v1: Vector3 = new Vector3(10, 2, 5);
     const v2: Vector3 = new Vector3(5, 9, -2);

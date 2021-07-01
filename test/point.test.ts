@@ -9,6 +9,11 @@ describe("Point tests", () => {
     expect(A.z).toBe(0);
   });
 
+  it("should convert a point to a string", () => {
+    const A: Point = new Point(10, 2, 5.5);
+    expect(A.toString()).toEqual("(10|2|5.5)");
+  });
+
   it("should create a location vector", () => {
     const A: Point = new Point(10, 5, -2);
     const v: Vector3 = A.toLocationVector();
