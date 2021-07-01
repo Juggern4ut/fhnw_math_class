@@ -6,6 +6,11 @@ class Plane {
   direction1: Vector3;
   direction2: Vector3;
   constructor(location: Vector3, direction1: Vector3, direction2: Vector3) {
+    if (Vector3.areParallel(direction1, direction2)) {
+      throw new Error(
+        "The two directional vectors of the plane are parallel. This is not allowed!"
+      );
+    }
     this.location = location;
     this.direction1 = direction1;
     this.direction2 = direction2;
